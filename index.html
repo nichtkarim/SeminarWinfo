@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podman Projekt</title>
+</head>
+<body>
+    <h1>Podman Projekt</h1>
+    <p>Dies ist eine einfache Webanwendung.</p>
+    <div id="users"></div>
+
+    <script>
+        fetch('/')
+            .then(response => response.json())
+            .then(data => {
+                let usersDiv = document.getElementById('users');
+                data.users.forEach(user => {
+                    let userElement = document.createElement('p');
+                    userElement.textContent = `Benutzer ID: ${user.id}, Name: ${user.name}`;
+                    usersDiv.appendChild(userElement);
+                });
+            })
+            .catch(error => console.error('Fehler beim Abrufen der Benutzerdaten:', error));
+    </script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Podman WebApp Projekt
 
-Dieses Projekt demonstriert die Verwendung von Podman zur Containerisierung einer Python-API, einer Webanwendung und einer PostgreSQL-Datenbank sowie die Bereitstellung der HTML-Seite mit einem Apache-Webserver.
+Dieses Projekt demonstriert die Verwendung von Podman zur Containerisierung einer Python-API, einer Webanwendung und einer PostgreSQL-Datenbank sowie die Bereitstellung der HTML-Seite mit einem Apache-Webserver. Das Projekt wurde im Rahmen einer Hausarbeit für das Modul "Seminar Wirtschaftsinformatik" an der Fachhochschule Südwestfalen erarbeitet.
 
 ## Anforderungen
 

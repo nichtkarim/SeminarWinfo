@@ -50,5 +50,5 @@ podman rm postgres-db python-api apache-web
 
 ## Hinweise
 
-- Stelle sicher, dass `mysecretpassword` durch ein sicheres Passwort ersetzt wird.
+- Es sollte `mysecretpassword` durch ein sicheres Passwort ersetzt werden, wenn man das Projekt seriös nutzen möchte.
 - Die Datenbankabfragen und HTML-Seiten können je nach Bedarf angepasst werden.
